@@ -1,0 +1,28 @@
+{
+  "name": "node_static_server",
+  "version": "1.0.0",
+  "description": "node 创建的静态资源服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix",
+    "start": "npm app.js"
+  },
+  "pre-commit": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgiafab/node_static_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgiafab/node_static_server/issues"
+  },
+  "homepage": "https://github.com/Georgiafab/node_static_server#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.2.0",
+    "pre-commit": "^1.2.2"
+  }
+}
